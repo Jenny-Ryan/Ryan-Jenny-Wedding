@@ -164,10 +164,10 @@ hr {
 .btn {
     border: none;
     outline: none;
-    padding: 10px 16px;
+    padding: 2vw 2vw;
     background-color: #f1f1f1;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 1vw;
 }
 
 .btn:hover {
@@ -254,3 +254,13 @@ hr {
 }
 
 /* MEDIA QUERIES */
+@media screen and (max-width: 768px) {
+    .home-title {
+        font-size: 5vw;
+    }
+
+    .intro-section {
+        font-size: 3vw;
+    }
+   
+}

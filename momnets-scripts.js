@@ -3,24 +3,24 @@ const elements = document.getElementsByClassName('column');
 // Full-width images
 function one() {
     for (let i = 0; i < elements.length; i++) {
-        elements[i].style.msFlex = "100%";  // IE10
-        elements[i].style.flex = "100%";
+        elements[i].style.msFlex = "95%";  // IE10
+        elements[i].style.flex = "95%";
     }
 }
 
 // Two images side by side
 function two() {
     for (i = 0; i < elements.length; i++) {
-        elements[i].style.msFlex = "48%";  // IE10
-        elements[i].style.flex = "48%";
+        elements[i].style.msFlex = "40%";  // IE10
+        elements[i].style.flex = "40%";
     }
 }
 
 // Three images side by side
 function three() {
     for (i = 0; i < elements.length; i++) {
-        elements[i].style.msFlex = "31%";  // IE10
-        elements[i].style.flex = "31%";
+        elements[i].style.msFlex = "25%";  // IE10
+        elements[i].style.flex = "25%";
     }
 }
 
