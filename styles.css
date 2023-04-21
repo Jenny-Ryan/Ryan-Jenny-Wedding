@@ -1,0 +1,201 @@
+@font-face {
+    font-family: 'IvyMode-Bold';
+    src: url('font.nosync/IvyMode-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IvyMode-Italic';
+    src: url('font.nosync/IvyMode-Italic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IvyMode-Light';
+    src: url('font.nosync/IvyMode-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IvyMode-Regular';
+    src: url('font.nosync/IvyMode-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'IvyMode-Bold', 'Dejavu Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 50%;
+    margin-bottom: 50px;
+    /* 16:9 aspect ratio */
+}
+
+#wedding-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+.home-title,
+.home-date {
+    position: absolute;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 4vw;
+}
+
+.home-date {
+    font-size: 1vw;
+    margin-top: 90px;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1vw;
+    z-index: 1;
+}
+
+.header a {
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.intro-section {
+    /* padding-left: 2vw; */
+    padding-right: 1vw;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 100%;
+    flex: auto;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+}
+
+.intro-section h2 {
+    font-size: 4vw;
+}
+
+.intro-section p {
+    font-family: 'IvyMode-Light', 'IvyMode-Regular';
+    font-size: 1.5vw;
+}
+
+.section {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+}
+
+.textblock {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    width: 700px;
+}
+
+.textblock.text2 h2 {
+    text-align: end;
+}
+
+.section.img3 {
+    justify-content: right;
+    margin-right: 60px;
+}
+
+.footer {
+    /* font-family: 'IvyMode-Regular', sans-serif; */
+    margin-top: 2vw;
+    background-color: #F2EEED;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: fixed;
+    padding-bottom: 1vw;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+}
+
+.people {
+    font-family: 'IvyMode-Regular', sans-serif;
+    font-size: 1.1vw;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10vw;
+    text-align: left;
+    padding-left: 6vw;
+    margin-top: 1.5vw;
+
+}
+
+.footer-title {
+    font: 'IvyMode-Bold';
+    text-transform: capitalize;
+    font-size: 1.5vw;
+    margin-bottom: 0.5vw;
+}
+
+.footer-title:after {
+    content: "";
+    float: left;
+    background: #AB8C83;
+    width: 5vw;
+    height: 0.4vw;
+    border-radius: 3px;
+}
+
+.end {
+    font-family: 'IvyMode-Italic', sans-serif;
+    font-size: 1vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 1.5vw;
+}
+
+.github {
+    color: var(--primary-dark);
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.github:hover {
+    transform: rotate(360deg) scale(1.2);
+}
+
+.insta:hover,
+.linkedin:hover {
+    transform: rotate(360deg) scale(1.2);
+}
