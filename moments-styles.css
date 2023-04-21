@@ -142,8 +142,8 @@ hr {
 }
 
 .column {
-    -ms-flex: 31%;
-    flex: 31%;
+    -ms-flex: 27%;
+    flex: 27%;
     padding: 0 10px;
 }
 
@@ -164,7 +164,7 @@ hr {
 .btn {
     border: none;
     outline: none;
-    padding: 2vw 2vw;
+    padding: 1vw 1vw;
     background-color: #f1f1f1;
     cursor: pointer;
     font-size: 1vw;
