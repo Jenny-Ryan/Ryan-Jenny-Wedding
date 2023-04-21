@@ -68,7 +68,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    font-size: 1.5vw;
+    font-size: 1vw;
     z-index: 1;
 }
 
@@ -204,6 +204,10 @@ body {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 768px) {
+    .header {
+        font-size: 1.5vw;
+    }
+   
     .home-title {
         font-size: 5vw;
     }
