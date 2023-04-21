@@ -157,17 +157,17 @@ hr {
 .image-header {
     text-align: center;
     padding: 32px;
-    font-size: 2vw;
+    font-size: 1.5vw;
 }
 
 /* Style the buttons */
 .btn {
     border: none;
     outline: none;
-    padding: 1vw 1vw;
+    padding: 1.2vw 1.2vw;
     background-color: #f1f1f1;
     cursor: pointer;
-    font-size: 0.8vw;
+    font-size: 1.2vw;
 }
 
 .btn:hover {
