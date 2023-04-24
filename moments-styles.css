@@ -39,6 +39,36 @@ body {
     background-image: url("pic.nosync/b4.jpg");
 }
 
+.back-to-top-link {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #CFC3BC;
+    padding: 0.25rem;
+    position: sticky;
+    pointer-events: all;
+    top: calc(100vh - 5rem);
+}
+
+.back-to-top-wrapper {
+    position: absolute;
+    top: 100vh;
+    right: 4rem;
+    bottom: -10em;
+    width: 3em;
+    pointer-events: none;
+    z-index: 1;
+}
+
+main {
+    position: relative;
+}
+
 .header-container {
     height: 45vw;
     overflow: hidden;
@@ -271,5 +301,27 @@ hr {
 
     .header {
         font-size: 1.5vw;
+    }
+
+    .back-to-top-link {
+        font-size: 1.2rem;
+        line-height: 2rem;
+        width: 2rem;
+        height: 2rem;
+        padding: 0.25rem;
+    }
+
+    .back-to-top-wrapper {
+        top: 100vh;
+        right: 0.3rem;
+        bottom: -5em;
+        width: 3em;
+    }
+}
+
+/* Smooth scrolling IF user doesn't have a preference due to motion sensitivities */
+@media screen and (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
     }
 }
