@@ -83,7 +83,7 @@ body {
     padding-top: 4vw;
     padding-bottom: 4vw;
     width: 40vw;
-    margin-bottom: 15vw;
+    margin-bottom: 5vw;
     background-image: url("pic.nosync/t1.png");
 }
 
@@ -195,6 +195,25 @@ table {
     transform: rotate(360deg) scale(1.2);
 }
 
+.comment {
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-top: 4vw;
+    margin-bottom: 5vw;
+}
+
+.comment h4 {
+    text-align: center;
+    font-family: 'IvyMode-Bold';
+    font-size: 2vw;
+}
+
+.comment p {
+    text-align: center;
+    font-size: 1vw;
+}
+
+
 /* Change font size for smaller screens */
 @media only screen and (max-width: 768px) {
     .header {
@@ -213,6 +232,14 @@ table {
 
     table {
         font-size: 1.8vw;
+    }
+
+    .comment h4 {
+        font-size: 2.5vw;
+    }
+    
+    .comment p {
+        font-size: 2vw;
     }
 
 
@@ -236,6 +263,14 @@ table {
 
     table {
         font-size: 1.8vw;
+    }
+
+    .comment h4 {
+        font-size: 2.5vw;
+    }
+    
+    .comment p {
+        font-size: 2vw;
     }
 }
 
