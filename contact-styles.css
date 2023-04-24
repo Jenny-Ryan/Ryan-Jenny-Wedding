@@ -195,7 +195,7 @@ table {
     transform: rotate(360deg) scale(1.2);
 }
 
-.comment {
+.gi {
     margin-left: 8vw;
     margin-right: 8vw;
     margin-top: 4vw;
@@ -245,6 +245,16 @@ table {
         font-size: 2vw;
     }
 
+    .middle {
+        margin-left: 5vw;
+        margin-right: 5vw;
+        padding: 4vw;
+    }
+
+    .gi {
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
 
 }
 
@@ -274,6 +284,17 @@ table {
     
     .comment p {
         font-size: 2vw;
+    }
+
+    .middle {
+        margin-left: 5vw;
+        margin-right: 5vw;
+        padding: 4vw;
+    }
+
+    .gi {
+        margin-left: 5vw;
+        margin-right: 5vw;
     }
 }
 
