@@ -1,0 +1,236 @@
+@font-face {
+    font-family: 'IvyMode-Bold';
+    src: url('font.nosync/IvyMode-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IvyMode-Italic';
+    src: url('font.nosync/IvyMode-Italic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IvyMode-Light';
+    src: url('font.nosync/IvyMode-Light.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'IvyMode-Regular';
+    src: url('font.nosync/IvyMode-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    background-image: url("pic.nosync/b4.jpg");
+    z-index: -1;
+    max-width: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'IvyMode-Regular';
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 1vw;
+    z-index: 1;
+}
+
+.header a {
+    display: inline-block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-family: 'IvyMode-Bold';
+}
+
+.middle {
+    /* background-color: grey; */
+    background-image: url("pic.nosync/c2.png");
+    box-shadow: 0 0 8px 8px #f0eceb inset;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    padding: 4vw;
+    z-index: -1;
+}
+
+#title {
+    font-family: 'IvyMode-Bold';
+    text-align: center;
+    margin-top: 8vw;
+    margin-bottom: 4vw;
+    font-size: 3.5vw;
+}
+
+#intro,
+.ps {
+    /* margin-left: 12vw;
+    margin-right: 12vw; */
+    text-align: justify;
+    margin-bottom: 5vw;
+}
+
+.contact-table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    /* border: 1px solid black; */
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    width: 40vw;
+    margin-bottom: 15vw;
+    background-image: url("pic.nosync/t1.png");
+}
+
+table {
+    align-items: center;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 3vw;
+    font-size: 1.2vw;
+}
+
+.hr-lines {
+    overflow: hidden;
+    text-align: center;
+}
+
+.hr-lines:before,
+.hr-lines:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+
+.hr-lines:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.hr-lines:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.footer {
+    margin-top: 2vw;
+    /* background-color: #F8F8F8;
+    opacity: 0.65; */
+    display: flex;
+    background-image: url("pic.nosync/t1.png");
+    flex-direction: row;
+    width: 100%;
+    position: absolute;
+    padding-bottom: 1vw;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.people {
+    font-family: 'IvyMode-Regular', sans-serif;
+    font-size: 1.1vw;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10vw;
+    text-align: left;
+    padding-left: 6vw;
+    margin-top: 1.5vw;
+
+}
+
+.footer-title {
+    font-family: 'IvyMode-Bold';
+    text-transform: capitalize;
+    font-size: 1.5vw;
+    margin-bottom: 0.5vw;
+}
+
+.footer-title:after {
+    content: "";
+    float: left;
+    background: #AB8C83;
+    width: 5vw;
+    height: 0.4vw;
+    border-radius: 3px;
+}
+
+.end {
+    font-family: 'IvyMode-Italic', sans-serif;
+    font-size: 1vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 1.5vw;
+}
+
+.github {
+    color: var(--primary-dark);
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.github:hover {
+    transform: rotate(360deg) scale(1.2);
+}
+
+.insta:hover,
+.linkedin:hover {
+    transform: rotate(360deg) scale(1.2);
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        font-size: 1.5vw;
+    }
+
+    #intro,
+    .ps {
+        font-size: 1.5vw;
+    }
+
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer-column {
+        margin-right: 0;
+        text-align: center;
+        padding-left: 0;
+        margin-top: 2vw;
+    }
+
+    .footer-title {
+        font-size: 1.8vw;
+    }
+
+    .people {
+        font-size: 1.5vw;
+    }
+
+    .end {
+        font-size: 0.8vw;
+    }
+}

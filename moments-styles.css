@@ -212,7 +212,7 @@ hr {
 }
 
 .footer-title {
-    font: 'IvyMode-Bold';
+    font-family: 'IvyMode-Bold';
     text-transform: capitalize;
     font-size: 1.5vw;
     margin-bottom: 0.5vw;
