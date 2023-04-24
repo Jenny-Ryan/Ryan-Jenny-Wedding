@@ -182,8 +182,7 @@ hr {
 
 .footer {
     margin-top: 2vw;
-    background-color: #F8F8F8;
-    opacity: 0.65;
+    background-image: url("pic.nosync/t1.png");
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -273,5 +272,4 @@ hr {
     .header {
         font-size: 1.5vw;
     }
-   
 }

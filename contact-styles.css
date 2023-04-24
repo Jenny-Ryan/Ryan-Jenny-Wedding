@@ -72,15 +72,12 @@ body {
 
 #intro,
 .ps {
-    /* margin-left: 12vw;
-    margin-right: 12vw; */
     text-align: justify;
     margin-bottom: 5vw;
 }
 
 .contact-table {
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     text-align: left;
     /* border: 1px solid black; */
     padding-top: 4vw;
@@ -127,8 +124,6 @@ table {
 
 .footer {
     margin-top: 2vw;
-    /* background-color: #F8F8F8;
-    opacity: 0.65; */
     display: flex;
     background-image: url("pic.nosync/t1.png");
     flex-direction: row;
@@ -200,37 +195,21 @@ table {
     transform: rotate(360deg) scale(1.2);
 }
 
-@media screen and (max-width: 768px) {
-    .header {
-        font-size: 1.5vw;
-    }
-
+/* Change font size for smaller screens */
+@media only screen and (max-width: 768px) {
     #intro,
     .ps {
-        font-size: 1.5vw;
+        font-size: 14px;
     }
 
 
-    .footer {
-        flex-direction: column;
-    }
+}
 
-    .footer-column {
-        margin-right: 0;
-        text-align: center;
-        padding-left: 0;
-        margin-top: 2vw;
-    }
-
-    .footer-title {
-        font-size: 1.8vw;
-    }
-
-    .people {
-        font-size: 1.5vw;
-    }
-
-    .end {
-        font-size: 0.8vw;
+/* Change font size for even smaller screens */
+@media only screen and (max-width: 480px) {
+    #intro,
+    .ps {
+        font-size: 12px;
     }
 }
+
