@@ -202,6 +202,15 @@ table {
         font-size: 14px;
     }
 
+    .contact-table {
+        width: 60vw;
+        
+    }
+
+    table {
+        font-size: 1.8vw;
+    }
+
 
 }
 
@@ -210,6 +219,15 @@ table {
     #intro,
     .ps {
         font-size: 12px;
+    }
+
+    .contact-table {
+        width: 60vw;
+        
+    }
+
+    table {
+        font-size: 1.8vw;
     }
 }
 
