@@ -197,6 +197,10 @@ table {
 
 /* Change font size for smaller screens */
 @media only screen and (max-width: 768px) {
+    .header {
+        font-size: 1.5vw;
+    }
+    
     #intro,
     .ps {
         font-size: 14px;
@@ -216,6 +220,10 @@ table {
 
 /* Change font size for even smaller screens */
 @media only screen and (max-width: 480px) {
+    .header {
+        font-size: 1.5vw;
+    }
+
     #intro,
     .ps {
         font-size: 12px;
