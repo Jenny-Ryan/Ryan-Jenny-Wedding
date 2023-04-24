@@ -213,6 +213,9 @@ table {
     font-size: 1vw;
 }
 
+.ps {
+    margin-top: 10vw;
+}
 
 /* Change font size for smaller screens */
 @media only screen and (max-width: 768px) {
