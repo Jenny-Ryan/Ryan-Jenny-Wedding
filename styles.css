@@ -29,7 +29,7 @@
 
 body {
     background-image: url("pic.nosync/b4.jpg");
-    /* font-family: 'IvyMode-Bold', 'Dejavu Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: 'IvyMode-Bold', 'Dejavu Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .back-to-top-link {
@@ -50,7 +50,7 @@ body {
 
 .back-to-top-wrapper {
     position: absolute;
-    top: 100vh;
+    top: 150vh;
     right: 4rem;
     bottom: -10em;
     width: 3em;
@@ -73,6 +73,7 @@ main {
 
 #wedding-video {
     position: absolute;
+    width: 50vw;
     top: 0;
     left: 0;
     z-index: -1;
@@ -296,7 +297,7 @@ main {
 
 
 /* For screens that are at least 768px wide */
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
     .header-container {
       height: 30vw;
     }
@@ -325,7 +326,7 @@ main {
         width: 3em;
     }
   }
-  
+   */
 /* Smooth scrolling IF user doesn't have a preference due to motion sensitivities */
 @media screen and (prefers-reduced-motion: no-preference) {
     html {

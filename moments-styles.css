@@ -57,7 +57,7 @@ body {
 
 .back-to-top-wrapper {
     position: absolute;
-    top: 100vh;
+    top: 30vh;
     right: 4rem;
     bottom: -10em;
     width: 3em;
