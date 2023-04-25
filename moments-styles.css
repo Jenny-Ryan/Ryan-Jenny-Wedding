@@ -185,18 +185,24 @@ hr {
     vertical-align: middle;
 }
 
-.image-header h3 {
+.image-header {
     text-align: center;
     padding: 32px;
+}
+
+.image-header h3 {
     font-size: 1.5vw;
 }
 
 .image-header p {
     font-size: 1vw;
+    text-align: center;
+    /* padding: 32px; */
 }
 
 /* Style the buttons */
 .btn {
+    text-align: center;
     border: none;
     outline: none;
     padding: 1.2vw 1.2vw;
