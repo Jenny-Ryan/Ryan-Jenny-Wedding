@@ -317,6 +317,14 @@ hr {
         bottom: -5em;
         width: 3em;
     }
+
+    .people {
+        font-size: 1.7vw;
+    }
+
+    .footer-title {
+        font-size: 2.2vw;
+    }
 }
 
 /* Smooth scrolling IF user doesn't have a preference due to motion sensitivities */

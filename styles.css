@@ -159,19 +159,17 @@ main {
 
 .footer {
     margin-top: 2vw;
-    background-image: url("pic.nosync/t1.png");
     display: flex;
+    background-image: url("pic.nosync/t1.png");
     flex-direction: row;
     width: 100%;
     position: absolute;
     padding-bottom: 1vw;
 }
 
-
 .footer-container {
     display: flex;
     flex-direction: row;
-    bottom: 0;
 }
 
 .people {
@@ -190,11 +188,10 @@ main {
 }
 
 .footer-title {
-    font: 'IvyMode-Bold';
+    font-family: 'IvyMode-Bold';
     text-transform: capitalize;
     font-size: 1.5vw;
     margin-bottom: 0.5vw;
-    margin-left: 2vw;
 }
 
 .footer-title:after {
@@ -205,6 +202,7 @@ main {
     height: 0.4vw;
     border-radius: 3px;
 }
+
 
 .end {
     font-family: 'IvyMode-Italic', sans-serif;
@@ -217,6 +215,7 @@ main {
     right: 0;
     padding-right: 1.5vw;
 }
+
 
 .github {
     color: var(--primary-dark);
@@ -256,28 +255,14 @@ main {
         font-size: 3vw;
     }
 
-    .footer-title {
-        font-size: 3vw;
-    }
-
-    .footer-title:after {
-        width: 15vw;
-    }
-
-    .end {
-        font-size: 3vw;
-        padding-right: 3vw;
-    }
-
-    .footer-column {
-        padding-left: 3vw;
-        margin-right: 5vw;
-        margin-top: 2vw;
-    }
-
     .people {
-        font-size: 3vw;
+        font-size: 1.7vw;
     }
+
+    .footer-title {
+        font-size: 2.2vw;
+    }
+
 
     .back-to-top-link {
         font-size: 1.2rem;
@@ -296,37 +281,6 @@ main {
 }
 
 
-/* For screens that are at least 768px wide */
-/* @media screen and (min-width: 768px) {
-    .header-container {
-      height: 30vw;
-    }
-  
-    .intro-section {
-      font-size: 1.5vw;
-      margin-top: 5vw;
-    }
-  
-    hr {
-      width: 30vw;
-    }
-  
-    .back-to-top-link {
-        font-size: 1.2rem;
-        line-height: 2rem;
-        width: 2rem;
-        height: 2rem;
-        padding: 0.25rem;
-    }
-
-    .back-to-top-wrapper {
-        top: 100vh;
-        right: 0.3rem;
-        bottom: -5em;
-        width: 3em;
-    }
-  }
-   */
 /* Smooth scrolling IF user doesn't have a preference due to motion sensitivities */
 @media screen and (prefers-reduced-motion: no-preference) {
     html {

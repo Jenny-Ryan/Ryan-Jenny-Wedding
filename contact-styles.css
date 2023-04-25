@@ -217,6 +217,7 @@ table {
     border-radius: 3px;
 }
 
+
 .end {
     font-family: 'IvyMode-Italic', sans-serif;
     font-size: 1vw;
@@ -286,7 +287,7 @@ table {
         bottom: -5em;
         width: 3em;
     }
-    
+
 
     #intro,
     .ps {
@@ -299,7 +300,7 @@ table {
     }
 
     table {
-        font-size: 1.8vw;
+        font-size: 2vw;
     }
 
     .comment h4 {
@@ -319,6 +320,14 @@ table {
     .gi {
         margin-left: 5vw;
         margin-right: 5vw;
+    }
+
+    .people {
+        font-size: 1.7vw;
+    }
+
+    .footer-title {
+        font-size: 2.2vw;
     }
 
 }
@@ -343,7 +352,7 @@ table {
         bottom: -5em;
         width: 3em;
     }
-    
+
     #intro,
     .ps {
         font-size: 12px;
@@ -355,7 +364,7 @@ table {
     }
 
     table {
-        font-size: 1.8vw;
+        font-size: 2vw;
     }
 
     .comment h4 {
@@ -376,6 +385,15 @@ table {
         margin-left: 5vw;
         margin-right: 5vw;
     }
+
+    .people {
+        font-size: 1.7vw;
+    }
+
+    .footer-title {
+        font-size: 2.2vw;
+    }
+
 }
 
 
