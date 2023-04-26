@@ -82,6 +82,51 @@ main {
     font-family: 'IvyMode-Bold';
 }
 
+/* Styles for the mobile navigation */
+/* .mobile-nav {
+    display: none;
+} */
+
+/* Hide the menu content by default */
+/* .menu-content {
+    display: none;
+} */
+
+/* Show the menu content when the menu button is clicked */
+/* .show-menu .menu-content {
+    display: block;
+} */
+
+/* Style the menu button */
+/* .menu-button button {
+    background-color: #C3AAA6;
+    border-radius: 10%;
+    font-size: 2.8vw;
+    padding: 2vw;
+    color: white;
+    border: none;
+    font-family: 'IvyMode-Bold';
+    margin-left: 2vw;
+    margin-top: 3vw;
+} */
+
+/* Style the menu items */
+/* .menu-content a {
+    display: block;
+    padding: 10px;
+    background-color: #eee;
+    color: #AB8C83;
+    font-family: 'IvyMode-Bold';
+    font-size: 3vw;
+    text-decoration: none;
+} */
+
+/* Style the active menu item */
+/* .menu-content a.active {
+    background-color: #C3AAA6;
+    color: #fff;
+} */
+
 .middle {
     /* background-color: grey; */
     background-image: url("pic.nosync/c2.png");
@@ -310,6 +355,15 @@ table {
     .footer-title {
         font-size: 2.2vw;
     }
+
+    /* .header {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: inline-block;
+        z-index: 1;
+    } */
 
 }
 
